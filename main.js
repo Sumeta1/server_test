@@ -1,3 +1,4 @@
+const element = document.getElementById("but");
 async function addnum(num1, num2) {
     const response = await fetch('/add', {
         methods : 'POST',
@@ -6,6 +7,7 @@ async function addnum(num1, num2) {
     });
     
     const num = await response.json();
+    element.innerHTML = num.result;
     console.log(num.result);
 }
 
