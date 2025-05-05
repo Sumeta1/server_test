@@ -12,5 +12,6 @@ async function addnum(num1, num2) {
 }
 
 function Tap() {
+    element.style.background = "red";
     addnum(5, 8);
 }
