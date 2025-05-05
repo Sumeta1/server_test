@@ -1,0 +1,18 @@
+body {
+    font-size: 15pt;
+    min-height: 100vh;
+    background: cyan;
+    display: flex;
+    align-items: center;
+}
+
+div#but {
+    margin: auto;
+    color: white;
+    background: black;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+}
